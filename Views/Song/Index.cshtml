@@ -1,0 +1,26 @@
+﻿@model Laboratorio3.Models.SongModel;
+
+@{
+    ViewData["Title"] = "Song";
+}
+
+<h1>@ViewBag.MainTitle</h1>
+
+<div>
+    <div>
+        <p><b>Mi cancion preferida</b></p>
+    </div>
+
+    <div>
+        <p>Name: @Model.Name</p>
+        <p>Country: @Model.Country</p>
+        <p>Genre: @Model.Genre</p>
+        <p>Interpreter: @Model.Interpreter</p>
+        <p>ReleaseDate: @Model.ReleaseDate.Year</p>
+
+    </div>
+    
+    
+
+
+</div>
